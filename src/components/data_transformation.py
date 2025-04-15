@@ -25,7 +25,7 @@ class DataTransformation:
 
     def get_data_transformer_object(self):
         try:
-            numerical_columns= ['CGPA', 'Internships', 'Projects', 'Certifications', 'Aptitude_Test_ Score', 'Soft_ Skills_Rating', 'SSC_Marks', 'HSC_Marks']
+            numerical_columns= ['CGPA', 'Internships', 'Projects', 'Certifications', 'Aptitude_Test_Score', 'Soft_Skills_Rating', 'SSC_Marks', 'HSC_Marks']
             categorical_columns=  ['Extracurricular_Activities', 'Placement_Training']
 
             num_pipeline = Pipeline(
